@@ -1,60 +1,45 @@
 body {
-    margin: 0;
-    font-family: "Merriweather", serif;
-    background: #fffdf8;
-    color: #242424;
-    line-height: 1.6;
-  }
-  .container {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 2rem;
-  }
-  header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
-  }
-  .manifiesto {
-    font-size: 1.1rem;
-    color: #555;
-    margin-bottom: 2rem;
-  }
-  .destacado h2 {
-    font-size: 1.8rem;
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 0.5rem;
-    margin-top: 2rem;
-  }
-  .destacado article h3 {
-    font-size: 1.5rem;
-  }
-  .links {
-    margin: 2rem 0;
-  }
-  .links a {
-    text-decoration: none;
-    color: #3a3a3a;
-    border-bottom: 1px solid;
-  }
-  footer {
-    text-align: center;
-    margin-top: 3rem;
-    font-size: 0.9rem;
-    color: #777;
-  }
-  .lista-textos {
-    list-style: none;
-    padding: 0;
-  }
-  .lista-textos li {
-    padding: 1rem 0;
-    border-bottom: 1px solid #eee;
-  }
-  .lista-textos h3 {
-    margin: 0;
-  }
-  .lista-textos em {
-    color: #666;
-    font-size: 0.9rem;
-  }
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f6f1;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.manifiesto {
+  font-style: italic;
+  color: #666;
+}
+
+.destacado article {
+  background: #fff;
+  padding: 1rem;
+  border-left: 4px solid #333;
+  margin-bottom: 2rem;
+}
+
+.links {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+a {
+  color: #0077aa;
+  text-decoration: none;
+}
